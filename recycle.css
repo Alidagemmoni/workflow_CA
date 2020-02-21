@@ -1,0 +1,266 @@
+/*colors #C4F8FF, #B2EBFC, #a7c9db, #130924, #bae2c5, #f1e7de*/
+
+/*Apply all sites*/
+html {
+    background-color: #a7c9db;
+}
+
+.container {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    padding: 16px;
+    text-align: justify, sans-serif;
+    line-height: 1.8;
+}
+
+.nav { 
+    background-color: #130924;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    padding: 14px 18px;
+    text-decoration: none;
+    color: #bae2c5;
+    font-size: 28px;
+}
+
+.nav .pseudo:hover {
+    color: #a7c9db;
+}
+
+.nav .pseudo:active {
+    color: #f1e7de;
+}
+
+a {
+    clear: both;
+    color: #bae2c5;
+}
+
+/*footer*/
+footer {
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+    font-style: italic, sans-serif;
+    font-size: 14px; 
+}
+
+/*Home*/
+main {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    padding: 16px;
+    text-align: justify, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+    margin: 0px auto;
+    font-family: cursive, sans-serif;
+    font-size: 18px;
+}
+
+.explorehome {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.home {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-size: 18px;
+}
+
+/*About*/
+.about {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    padding: 16px;
+    text-align: justify, sans-serif;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/*Tours*/
+.p {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.containertours, .containertours1 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.tour {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.column1 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    margin-left; -10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0;
+    border-radius: 10px;
+}
+
+.column2 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0; 
+    border-radius: 10px;
+}
+
+.column3 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    margin-right: -10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0;
+    border-radius: 10px;
+}
+
+.column4 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    margin-left; -10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0;
+    border-radius: 10px;
+}
+
+.column5 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0; 
+    border-radius: 10px;
+}
+
+.column6 {
+    flex: 1;
+    float: left;
+    margin: 10px;
+    margin-right: -10px;
+    padding: 10px;
+    height: 100% auto;
+    background-color: #86A1B0;
+    border-radius: 10px;
+}
+
+/*Contact*/
+fieldset, h1 {
+	border: medium none !important;
+	margin: 0 0 10px;
+	width: 90%;
+	padding: 0;
+	width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#contact textarea {
+	width: 90%;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	margin: 0 0 5px;
+	padding: 10px;
+    height: 100px;
+	max-width: 100%;
+    resize: none;
+}
+
+#contact input[type="submit"] {
+	cursor: pointer;
+	width: 92%;
+	border: none;
+	background: #130924;
+	color: #ffffff;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px; 
+}
+
+/*Media*/
+@media screen and (min-width: 1600px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .middle {
+        width: 50%;
+        height: 50%;
+        display: block;
+        margin: 0px auto;
+        padding: 16px;
+        text-align: justify;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .containertours, .containertours1 {
+        flex-direction: column;
+    }
+    
+    .column1, .column2, .column3, .column4, .column5, .column6 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
